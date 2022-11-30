@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "704796240175",
+    "firebase_url": "https://calendarioapp-6ef74-default-rtdb.firebaseio.com",
+    "project_id": "calendarioapp-6ef74",
+    "storage_bucket": "calendarioapp-6ef74.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:704796240175:android:8ed7392b1f10ffe9e459da",
+        "android_client_info": {
+          "package_name": "com.example.appcalendario"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "704796240175-qd82mnqb2th06lmt5sdhi98mf630eh2u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.appcalendario",
+            "certificate_hash": "f633ea7674440c9c82a2956daa8565606c28309d"
+          }
+        },
+        {
+          "client_id": "704796240175-qv06tqo84dm7gkcm28o17s1545nujjo3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChwYFeAEVgcr37C10Q2ZXfRt6C1-Uex08"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "704796240175-qv06tqo84dm7gkcm28o17s1545nujjo3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:704796240175:android:2f9f70bf14c1b8d5e459da",
+        "android_client_info": {
+          "package_name": "com.example.calendarioaplicacion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "704796240175-qv06tqo84dm7gkcm28o17s1545nujjo3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChwYFeAEVgcr37C10Q2ZXfRt6C1-Uex08"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "704796240175-qv06tqo84dm7gkcm28o17s1545nujjo3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

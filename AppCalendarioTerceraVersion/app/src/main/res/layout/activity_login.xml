@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondodegradado"
+    tools:context=".Login">
+
+    <LinearLayout
+        style="@style/linear_layout_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+
+        <ImageView
+            android:layout_width="237dp"
+            android:layout_height="189dp"
+            android:layout_marginBottom="70dp"
+            app:srcCompat="@drawable/iconologinlock" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:hintEnabled="false"
+            android:textColorHint="@color/ColorHind">
+
+            <EditText
+                android:id="@+id/txtCorreoLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:drawableStart="@drawable/rut_icono"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:fontFamily="@font/fuzzybubbles"
+                android:background="@drawable/colordegradadoinput"
+                android:padding="15dp"
+                android:hint="Ingrese el correo"
+                android:importantForAutofill="no"
+                android:inputType="textEmailAddress"
+                android:minHeight="48dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/ColorHind"
+                tools:layout_editor_absoluteX="31dp"
+                tools:layout_editor_absoluteY="258dp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/ColorHind"
+            app:hintEnabled="false"
+            app:passwordToggleEnabled="true">
+
+            <EditText
+                android:id="@+id/txtContraseñaLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:drawableStart="@drawable/password_icono"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:background="@drawable/colordegradadoinput"
+                android:padding="15dp"
+                android:fontFamily="@font/fuzzybubbles"
+                android:hint="Ingrese contraseña"
+                android:importantForAutofill="no"
+                android:inputType="textPassword"
+                android:minHeight="48dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/ColorHind" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btnIniciarSesion"
+            android:layout_width="131dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="28dp"
+            android:background="@drawable/colordegradado"
+            android:fontFamily="@font/fuzzybubbles"
+            android:text="@string/BtnLogin"
+            android:shadowColor="#000000"
+            android:shadowDx="2"
+            android:shadowDy="5"
+            android:shadowRadius="10"
+            android:textColor="@color/white"
+            app:backgroundTint="@null"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/txtContraseñaLogin"
+            app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintStart_toStartOf="@+id/txtContraseñaLogin"
+            app:layout_constraintTop_toBottomOf="@+id/txtContraseñaLogin"
+            app:layout_constraintVertical_bias="0.229" />
+
+        <TextView
+            android:id="@+id/UsuarioIngresoTXT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:shadowColor="#000000"
+            android:shadowDx="2"
+            android:shadowDy="5"
+            android:shadowRadius="10"
+            android:text="@string/UsuarioIngresoTXT"
+            android:textColor="@color/ColorPrimary"
+            app:layout_constraintEnd_toEndOf="@+id/btnIniciarSesion"
+            app:layout_constraintHorizontal_bias="0.505"
+            app:layout_constraintStart_toStartOf="@+id/btnIniciarSesion"
+            app:layout_constraintTop_toBottomOf="@+id/btnIniciarSesion" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

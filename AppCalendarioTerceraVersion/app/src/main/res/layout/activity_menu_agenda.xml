@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondodegradado"
+    tools:context=".MenuAgenda">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/fondo_portada_psicologia" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/fotoPerfil"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="50dp"
+            android:padding="3dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/perfil" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/fuzzybubbles"
+                    android:shadowColor="#000000"
+                    android:shadowDx="2"
+                    android:shadowDy="5"
+                    android:shadowRadius="10"
+                    android:text="@string/Uidtxt"
+                    android:textColor="@color/white"
+                    android:visibility="gone"
+                    tools:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/UidPerfil"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:fontFamily="@font/fuzzybubbles"
+                    android:shadowColor="#000000"
+                    android:shadowDx="2"
+                    android:shadowDy="5"
+                    android:shadowRadius="10"
+                    android:text="@string/Uidperfil"
+                    android:textColor="#fff"
+                    android:visibility="gone"
+                    tools:visibility="gone" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/fuzzybubbles"
+                    android:shadowColor="#000000"
+                    android:shadowDx="2"
+                    android:shadowDy="5"
+                    android:shadowRadius="10"
+                    android:text="@string/ruttxt"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/rutPerfil"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:fontFamily="@font/fuzzybubbles"
+                    android:shadowColor="#000000"
+                    android:shadowDx="2"
+                    android:shadowDy="5"
+                    android:shadowRadius="10"
+                    android:text="@string/rutperfil"
+                    android:textColor="#fff" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/fuzzybubbles"
+                    android:shadowColor="#000000"
+                    android:shadowDx="2"
+                    android:shadowDy="5"
+                    android:shadowRadius="10"
+                    android:text="@string/correotxt"
+                    android:textColor="#fff" />
+
+                <TextView
+                    android:id="@+id/correoPerfil"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:fontFamily="@font/fuzzybubbles"
+                    android:shadowColor="#000000"
+                    android:shadowDx="2"
+                    android:shadowDy="5"
+                    android:shadowRadius="10"
+                    android:text="@string/correoperfil"
+                    android:textColor="#fff" />
+
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/fuzzybubbles"
+                    android:shadowColor="#000000"
+                    android:shadowDx="2"
+                    android:shadowDy="5"
+                    android:shadowRadius="10"
+                    android:text="@string/nombretxt"
+                    android:textColor="#fff" />
+
+                <TextView
+                    android:id="@+id/nombrePerfil"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:fontFamily="@font/fuzzybubbles"
+                    android:shadowColor="#000000"
+                    android:shadowDx="2"
+                    android:shadowDy="5"
+                    android:shadowRadius="10"
+                    android:text="@string/nombreperfil"
+                    android:textColor="#fff" />
+
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="320dp"
+        android:orientation="vertical">
+
+        <!--1 - 2-->
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <!--OPCION 1-->
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginBottom="5dp"
+                    android:src="@drawable/icono_agendar" />
+
+                <Button
+                    android:id="@+id/btnAgendar"
+                    android:layout_width="160dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/colordegradado"
+                    android:fontFamily="@font/fuzzybubbles"
+                    android:shadowColor="#000000"
+                    android:shadowDx="2"
+                    android:shadowDy="5"
+                    android:shadowRadius="10"
+                    android:text="Ingresar una agenda"
+                    android:textColor="@color/white"
+                    app:backgroundTint="@null" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <!--OPCION 2-->
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginBottom="5dp"
+                    android:src="@drawable/icono_datos" />
+
+                <Button
+                    android:id="@+id/btnMostrarDatos"
+                    android:layout_width="160dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/colordegradado"
+                    android:fontFamily="@font/fuzzybubbles"
+                    android:shadowColor="#000000"
+                    android:shadowDx="2"
+                    android:shadowDy="5"
+                    android:shadowRadius="10"
+                    android:text="Mostrar mis datos"
+                    android:textColor="@color/white"
+                    app:backgroundTint="@null" />
+
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <!--3 - 4-->
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <!--OPCION 3-->
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginBottom="5dp"
+                    android:src="@drawable/icono_mostrar_lista" />
+
+                <Button
+                    android:id="@+id/btnMostrarAgenda"
+                    android:layout_width="165dp"
+                    android:layout_height="61dp"
+                    android:background="@drawable/colordegradado"
+                    android:fontFamily="@font/fuzzybubbles"
+                    android:shadowColor="#000000"
+                    android:shadowDx="2"
+                    android:shadowDy="5"
+                    android:shadowRadius="10"
+                    android:text="Mostrar lista de agendados"
+                    android:textColor="@color/white"
+                    app:backgroundTint="@null" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <!--OPCION 4-->
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginBottom="5dp"
+                    android:src="@drawable/icono_nota" />
+
+                <Button
+                    android:id="@+id/btnConsulta"
+                    android:layout_width="160dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/colordegradado"
+                    android:fontFamily="@font/fuzzybubbles"
+                    android:shadowColor="#000000"
+                    android:shadowDx="2"
+                    android:shadowDy="5"
+                    android:shadowRadius="10"
+                    android:text="Horarios importantes"
+                    android:textColor="@color/white"
+                    app:backgroundTint="@null" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtCerrarSesion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/fuzzybubbles"
+                android:shadowColor="#000000"
+                android:shadowDx="2"
+                android:shadowDy="5"
+                android:shadowRadius="10"
+                android:text="Cerrar sesion"
+                android:textColor="@color/ColorPrimary"
+                android:textSize="20dp" />
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</RelativeLayout>

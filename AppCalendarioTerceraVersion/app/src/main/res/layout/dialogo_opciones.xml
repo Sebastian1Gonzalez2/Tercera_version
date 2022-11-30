@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/colordegradadomenu"
+    android:padding="10dp"
+    android:layout_gravity="center">
+    
+        <TextView
+            android:text="@string/txtElijaOpcion"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:fontFamily="@font/fuzzybubbles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            app:lottie_imageAssetsFolder="assets"
+            app:lottie_fileName="clickmenu.json"
+            app:lottie_loop="true"
+            app:lottie_autoPlay="true"/>
+
+        <Button
+            android:id="@+id/btnActualizarHorario"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/fuzzybubbles"
+            android:background="@drawable/colordegradado3"
+            android:shadowColor="#000000"
+            android:shadowDx="2"
+            android:shadowDy="5"
+            android:shadowRadius="10"
+            android:textColor="@color/white"
+            app:icon="@drawable/actualizarhorario_icono"
+            app:backgroundTint="@null"
+            android:text="Actualizar horario"
+            />
+    
+        <Button
+            android:id="@+id/btnEliminarHorario"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/fuzzybubbles"
+            android:background="@drawable/colordegradado3"
+            android:shadowColor="#000000"
+            android:shadowDx="2"
+            android:shadowDy="5"
+            android:shadowRadius="10"
+            android:textColor="@color/white"
+            app:icon="@drawable/eliminarhorario_icono"
+            app:backgroundTint="@null"
+            android:text="Eliminar horario"
+            />
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

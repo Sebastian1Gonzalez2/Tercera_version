@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Gamer/AndroidStudioProjects/AppCalendario/app/src/main/res/drawable-anydpi/CorreoUsuario_icono.xml" value="0.3675" />
+        <entry key="..\:/Users/Gamer/AndroidStudioProjects/AppCalendario/app/src/main/res/drawable-anydpi/calendarhorario_icono.xml" value="0.266" />
+        <entry key="..\:/Users/Gamer/AndroidStudioProjects/AppCalendario/app/src/main/res/drawable-anydpi/colordegradado3.xml" value="0.3285" />
+        <entry key="..\:/Users/Gamer/AndroidStudioProjects/AppCalendario/app/src/main/res/drawable-anydpi/idHorario_icono.xml" value="0.351" />
+        <entry key="..\:/Users/Gamer/AndroidStudioProjects/AppCalendario/app/src/main/res/drawable-anydpi/menuactualizarhorario_icono.xml" value="0.3005" />
+        <entry key="..\:/Users/Gamer/AndroidStudioProjects/AppCalendario/app/src/main/res/drawable-hdpi/colordegradadoMenu.xml" value="0.3205" />
+        <entry key="..\:/Users/Gamer/AndroidStudioProjects/AppCalendario/app/src/main/res/drawable-hdpi/colordegradadomenu.xml" value="0.3205" />
+        <entry key="..\:/Users/Gamer/AndroidStudioProjects/AppCalendario/app/src/main/res/drawable-mdpi/colordegradadoinput.xml" value="0.249" />
+        <entry key="..\:/Users/Gamer/AndroidStudioProjects/AppCalendario/app/src/main/res/drawable/colordegradado.xml" value="0.3285" />
+        <entry key="..\:/Users/Gamer/AndroidStudioProjects/AppCalendario/app/src/main/res/drawable/colordegradado2.xml" value="0.3285" />
+        <entry key="..\:/Users/Gamer/AndroidStudioProjects/AppCalendario/app/src/main/res/drawable/colordegradadoletras.xml" value="0.3285" />
+        <entry key="..\:/Users/Gamer/AndroidStudioProjects/AppCalendario/app/src/main/res/drawable/colorfondoinput.xml" value="0.3285" />
+        <entry key="..\:/Users/Gamer/AndroidStudioProjects/AppCalendario/app/src/main/res/layout/activity_MenuInicio.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Gamer/AndroidStudioProjects/AppCalendario/app/src/main/res/layout/activity_actualizar_datos.xml" value="0.33" />
+        <entry key="..\:/Users/Gamer/AndroidStudioProjects/AppCalendario/app/src/main/res/layout/activity_actualizar_horario.xml" value="0.3494791666666667" />
+        <entry key="..\:/Users/Gamer/AndroidStudioProjects/AppCalendario/app/src/main/res/layout/activity_actualizar_password.xml" value="0.25" />
+        <entry key="..\:/Users/Gamer/AndroidStudioProjects/AppCalendario/app/src/main/res/layout/activity_agregar_horario.xml" value="0.33" />
+        <entry key="..\:/Users/Gamer/AndroidStudioProjects/AppCalendario/app/src/main/res/layout/activity_consultar_agenda.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Gamer/AndroidStudioProjects/AppCalendario/app/src/main/res/layout/activity_detalle_horario.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Gamer/AndroidStudioProjects/AppCalendario/app/src/main/res/layout/activity_detalle_horario_importante.xml" value="0.35" />
+        <entry key="..\:/Users/Gamer/AndroidStudioProjects/AppCalendario/app/src/main/res/layout/activity_horarios_importantes.xml" value="0.1" />
+        <entry key="..\:/Users/Gamer/AndroidStudioProjects/AppCalendario/app/src/main/res/layout/activity_ingresar_agenda.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Gamer/AndroidStudioProjects/AppCalendario/app/src/main/res/layout/activity_listar_horarios.xml" value="0.22554347826086957" />
+        <entry key="..\:/Users/Gamer/AndroidStudioProjects/AppCalendario/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/Users/Gamer/AndroidStudioProjects/AppCalendario/app/src/main/res/layout/activity_main.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/Gamer/AndroidStudioProjects/AppCalendario/app/src/main/res/layout/activity_menu_agenda.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Gamer/AndroidStudioProjects/AppCalendario/app/src/main/res/layout/activity_menu_principal.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Gamer/AndroidStudioProjects/AppCalendario/app/src/main/res/layout/activity_menuinicio.xml" value="0.33" />
+        <entry key="..\:/Users/Gamer/AndroidStudioProjects/AppCalendario/app/src/main/res/layout/activity_menuinicioapp.xml" value="0.33" />
+        <entry key="..\:/Users/Gamer/AndroidStudioProjects/AppCalendario/app/src/main/res/layout/activity_mostrar_agenda.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Gamer/AndroidStudioProjects/AppCalendario/app/src/main/res/layout/activity_mostrar_datos.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Gamer/AndroidStudioProjects/AppCalendario/app/src/main/res/layout/activity_pantalla_de_carga.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Gamer/AndroidStudioProjects/AppCalendario/app/src/main/res/layout/activity_registrar.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Gamer/AndroidStudioProjects/AppCalendario/app/src/main/res/layout/cuadro_dialogo_eliminar_horario_importante.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Gamer/AndroidStudioProjects/AppCalendario/app/src/main/res/layout/cuadro_dialogo_eliminar_nota_importante.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Gamer/AndroidStudioProjects/AppCalendario/app/src/main/res/layout/custom_spinner.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Gamer/AndroidStudioProjects/AppCalendario/app/src/main/res/layout/custom_spinner_dropdown.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Gamer/AndroidStudioProjects/AppCalendario/app/src/main/res/layout/custom_spinner_model.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Gamer/AndroidStudioProjects/AppCalendario/app/src/main/res/layout/dialogo_opciones.xml" value="0.26666666666666666" />
+        <entry key="..\:/Users/Gamer/AndroidStudioProjects/AppCalendario/app/src/main/res/layout/item_horario.xml" value="0.33" />
+        <entry key="..\:/Users/Gamer/AndroidStudioProjects/AppCalendario/app/src/main/res/layout/item_horario_importante.xml" value="0.35" />
+        <entry key="..\:/Users/Gamer/AndroidStudioProjects/AppCalendario/app/src/main/res/layout/listapersona.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Gamer/AndroidStudioProjects/AppCalendario/app/src/main/res/menu/menu_actualizar.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Gamer/AndroidStudioProjects/AppCalendario/app/src/main/res/menu/menu_agenda.xml" value="0.3490740740740741" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectPlainTextFileTypeManager">
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-anydpi/rut_icono.xml" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

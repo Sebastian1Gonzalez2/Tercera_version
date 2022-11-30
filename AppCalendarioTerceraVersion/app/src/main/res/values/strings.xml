@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">ByDiary</string>
+
+    <!-- Login y registro -->
+
+    <string name="Btn_Login">Ingresar</string>
+    <string name="Btn_Registro">Registrarse</string>
+    <string name="BtnLogin">Ingresar</string>
+
+    <!-- REGISTRO -->
+
+    <string name="CrearCuentatxt">Ingrese los datos</string>
+    <string name="rutTXT">Ingrese Rut</string>
+    <string name="nombreTXT">Ingrese Nombre</string>
+    <string name="apellidoTXT">Ingrese Apellido</string>
+    <string name="fechaTXT">Ingrese Fecha de nacimiento</string>
+    <string name="correoTXT">Ingrese Correo</string>
+    <string name="contraseñaTXT">Ingrese Contraseña</string>
+    <string name="confirmarContraseñaTXT">Confirmar Contraseña</string>
+    <string name="RegistroBTN">Registrar</string>
+    <string name="YaTengoCuentaTXT">Ya tengo una cuenta</string>
+    <string name="UsuarioIngresoTXT">¿No tienes una cuenta?. Registrate</string>
+
+    <!-- Menu Principal -->
+
+    <string name="BienvenidaInicio">bienvenido(a):</string>
+    <string name="NombreInicio"> -- </string>
+    <string name="CorreoInicial"> -- </string>
+
+    <!-- Perfil -->
+
+    <string name="Uidtxt">Uid: </string>
+    <string name="Uidperfil"> -- </string>
+    <string name="ruttxt">Rut: </string>
+    <string name="rutperfil"> -- </string>
+    <string name="correotxt">Correo: </string>
+    <string name="correoperfil"> -- </string>
+    <string name="nombretxt">Nombre: </string>
+    <string name="nombreperfil"> -- </string>
+
+    <string name="buscar">Buscar</string>
+    <string name="id">Identificador</string>
+    <string name="nombre">Nombre</string>
+    <string name="telefono">Telefono</string>
+    <string name="btnguardar">Guardar</string>
+
+    <!-- Datos Mostrados -->
+
+    <string name="txtRutDato">Rut</string>
+    <string name="txtNombreDato">Nombre</string>
+    <string name="txtApellidoDato">Apellido</string>
+    <string name="txtFechaDato">Fecha de nacimiento</string>
+    <string name="txtCorreoDato">Correo</string>
+    <string name="txtPasswordDato">Contraseña</string>
+
+    <!-- Editar Contraseña -->
+
+    <string name="editPassword">Contraseña Actual</string>
+    <string name="editConfirmPassword">Nueva Contraseña</string>
+
+    <string name="txtElijaOpcion">Elije una opcion</string>
+
+    <string-array name="Estados_horario">
+        <item>"Pendiente"</item>
+        <item>"Finalizado"</item>
+    </string-array>
+</resources>

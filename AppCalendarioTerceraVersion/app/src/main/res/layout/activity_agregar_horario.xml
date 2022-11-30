@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondodegradado"
+    tools:context=".horario.agregar_horario">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+      ¿
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/ColorHind"
+            app:hintEnabled="false">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="95dp"
+                android:fontFamily="@font/fuzzybubbles"
+                android:text="Ingresar horario"
+                android:textColor="@color/white"
+                android:textSize="25dp"/>
+
+            <TextView
+                android:id="@+id/txtUidUsuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/fuzzybubbles"
+                android:text="--"
+                android:visibility="gone"
+                tools:visibility="gone"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/txtCorreoId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/fuzzybubbles"
+                android:text="--"
+                android:visibility="gone"
+                tools:visibility="gone"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/txtFechaHoraActual"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/fuzzybubbles"
+                android:text="--"
+                android:visibility="gone"
+                tools:visibility="gone"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/txtTipo"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/fuzzybubbles"
+                android:text="Tipo de sesion"
+                android:textColor="@color/white"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <EditText
+            android:id="@+id/EditSesion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/colorfondoinput"
+            android:drawableStart="@drawable/sesion_icono"
+            android:padding="15dp"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/fuzzybubbles"
+            android:hint="Ingresar tipo de sesion"
+            android:minHeight="48dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/ColorHind"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:hintEnabled="false"
+            android:textColorHint="@color/ColorHind">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/fuzzybubbles"
+            android:textColor="@color/white"
+            android:text="Nombre del paciente" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+        <EditText
+            android:id="@+id/EditPaciente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/colorfondoinput"
+            android:drawableStart="@drawable/nombre_icono"
+            android:padding="15dp"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/fuzzybubbles"
+            android:hint="Ingresar nombre de paciente"
+            android:minHeight="48dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/ColorHind"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:hintEnabled="false"
+            android:textColorHint="@color/ColorHind">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/fuzzybubbles"
+                android:textColor="@color/white"
+                android:text="Informacion adicional" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <EditText
+            android:id="@+id/EditInformacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:minHeight="140dp"
+            android:gravity="start"
+            android:background="@drawable/colorfondoinput"
+            android:padding="15dp"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/fuzzybubbles"
+            android:hint="Informacion"
+            android:textColor="@color/white"
+            android:textColorHint="@color/ColorHind"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnFechaHorario"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/fuzzybubbles"
+                android:background="@drawable/colordegradado2"
+                app:icon="@drawable/calendarhorariofecha_icono"
+                android:shadowColor="#000000"
+                android:shadowDx="2"
+                android:shadowDy="5"
+                android:shadowRadius="10"
+                android:textColor="@color/white"
+                app:backgroundTint="@null"
+                android:text="Fecha" />
+
+            <TextView
+                android:id="@+id/txtFechaHorario"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textSize="20dp"
+                android:fontFamily="@font/fuzzybubbles"
+                android:textColorHint="@color/ColorHind"
+                android:hint="00/00/0000"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/SPHoraHorario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/colorfondoinput"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/fuzzybubbles"
+                android:hint="Ingresar Hora"
+                android:minHeight="40dp"
+                android:spinnerMode="dialog"
+                android:textColor="@color/white"
+                android:textColorHint="@color/ColorHind"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <TextView
+            android:id="@+id/txtEstado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:fontFamily="@font/fuzzybubbles"
+            android:textColorHint="@color/ColorHind"
+            android:textColor="@color/white"
+            android:text="Pendiente"/>
+
+    </LinearLayout>
+
+
+</ScrollView>

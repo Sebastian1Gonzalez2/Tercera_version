@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondodegradado"
+    tools:context=".Registrar">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            style="@style/linear_layout_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="294dp"
+                android:layout_height="120dp"
+                android:layout_margin="15dp"
+                app:srcCompat="@drawable/iconoregistro" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:hintEnabled="false"
+                android:textColorHint="@color/ColorHind">
+
+                <EditText
+                    android:id="@+id/txtRutR"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:ems="10"
+                    android:padding="15dp"
+                    android:background="@drawable/colordegradadoinput"
+                    android:fontFamily="@font/fuzzybubbles"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/ColorHind"
+                    android:drawablePadding="10dp"
+                    android:drawableStart="@drawable/rut_icono"
+                    android:hint="@string/rutTXT"
+                    android:importantForAutofill="no"
+                    android:inputType="textPersonName" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:hintEnabled="false"
+                android:textColorHint="@color/ColorHind">
+
+                <EditText
+                    android:id="@+id/txtNombreR"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/colordegradadoinput"
+                    android:padding="15dp"
+                    android:fontFamily="@font/fuzzybubbles"
+                    android:drawableStart="@drawable/nombre_icono"
+                    android:drawablePadding="10dp"
+                    android:ems="10"
+                    android:hint="@string/nombreTXT"
+                    android:importantForAutofill="no"
+                    android:inputType="textPersonName"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/ColorHind" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:hintEnabled="false"
+                android:textColorHint="@color/ColorHind">
+
+                <EditText
+                    android:id="@+id/txtapellidoR"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:drawableStart="@drawable/apellido_icono"
+                    android:background="@drawable/colordegradadoinput"
+                    android:drawablePadding="10dp"
+                    android:padding="15dp"
+                    android:ems="10"
+                    android:fontFamily="@font/fuzzybubbles"
+                    android:hint="@string/apellidoTXT"
+                    android:importantForAutofill="no"
+                    android:inputType="textPersonName"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/ColorHind" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:hintEnabled="false"
+                android:textColorHint="@color/ColorHind">
+
+                <EditText
+                    android:id="@+id/txtfechaR"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/fuzzybubbles"
+                    android:textColorHint="@color/ColorHind"
+                    android:drawablePadding="10dp"
+                    android:padding="15dp"
+                    android:drawableStart="@drawable/calendario_icono"
+                    android:background="@drawable/colordegradadoinput"
+                    android:clickable="true"
+                    android:focusable="false"
+                    android:hint="@string/fechaTXT"
+                    android:importantForAutofill="no"
+                    android:inputType="date"
+                    android:maxLines="1"
+                    android:onClick="FechaNacimiento"
+                    tools:ignore="KeyboardInaccessibleWidget" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:hintEnabled="false"
+                android:textColorHint="@color/ColorHind">
+
+                <EditText
+                    android:id="@+id/txtCorreoR"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:layout_margin="5dp"
+                    android:padding="15dp"
+                    android:fontFamily="@font/fuzzybubbles"
+                    android:background="@drawable/colordegradadoinput"
+                    android:textColorHint="@color/ColorHind"
+                    android:drawablePadding="10dp"
+                    android:drawableStart="@drawable/correo_icono"
+                    android:ems="10"
+                    android:hint="@string/correoTXT"
+                    android:importantForAutofill="no"
+                    android:inputType="textEmailAddress" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/ColorHind"
+                app:hintEnabled="false"
+                app:passwordToggleEnabled="true">
+
+                <EditText
+                    android:id="@+id/txtContraseñaR"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:drawableStart="@drawable/password_icono"
+                    android:background="@drawable/colordegradadoinput"
+                    android:drawablePadding="10dp"
+                    android:ems="10"
+                    android:fontFamily="@font/fuzzybubbles"
+                    android:hint="@string/contraseñaTXT"
+                    android:importantForAutofill="no"
+                    android:inputType="textPassword"
+                    android:padding="15dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/ColorHind" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/ColorHind"
+                app:hintEnabled="false"
+                app:passwordToggleEnabled="true">
+
+                <EditText
+                    android:id="@+id/txtConfirmarContraseñaR"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:fontFamily="@font/fuzzybubbles"
+                    android:textColor="@color/white"
+                    android:padding="15dp"
+                    android:textColorHint="@color/ColorHind"
+                    android:background="@drawable/colordegradadoinput"
+                    android:drawablePadding="10dp"
+                    android:drawableStart="@drawable/confirmedpassword_icono"
+                    android:ems="10"
+                    android:hint="@string/confirmarContraseñaTXT"
+                    android:importantForAutofill="no"
+                    android:inputType="textPassword" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/btnRegistrarR"
+                android:layout_width="132dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/colordegradado"
+                android:fontFamily="@font/fuzzybubbles"
+                android:shadowColor="#000000"
+                android:shadowDx="2"
+                android:shadowDy="5"
+                android:shadowRadius="10"
+                android:text="@string/RegistroBTN"
+                android:textColor="@color/white"
+                app:backgroundTint="@null"
+                app:layout_constraintEnd_toEndOf="@+id/txtConfirmarContraseñaR"
+                app:layout_constraintHorizontal_bias="0.476"
+                app:layout_constraintStart_toStartOf="@+id/txtConfirmarContraseñaR"
+                app:layout_constraintTop_toBottomOf="@+id/txtConfirmarContraseñaR" />
+
+            <TextView
+                android:id="@+id/TengoUnaCuentaTXT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:shadowColor="#000000"
+                android:shadowDx="2"
+                android:shadowDy="5"
+                android:shadowRadius="10"
+                android:text="@string/YaTengoCuentaTXT"
+                android:textColor="@color/ColorPrimary"
+                app:layout_constraintEnd_toEndOf="@+id/btnIniciarSesion"
+                app:layout_constraintHorizontal_bias="0.505"
+                app:layout_constraintStart_toStartOf="@+id/btnIniciarSesion"
+                app:layout_constraintTop_toBottomOf="@+id/btnIniciarSesion" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
